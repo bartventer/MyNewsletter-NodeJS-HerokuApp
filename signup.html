@@ -9,11 +9,12 @@
   <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
   <title>Newsletter Signup</title>
-
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
@@ -24,13 +25,132 @@
     <img class="mb-4" src="images/logo.png" alt="" width="120" height="120">
     <h1 class="h3 mb-3 font-weight-normal">Signup to My Newsletter!</h1>
 
-    <input  type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
-    <input  type="text" name="lastName" class="form-control middle" placeholder="Last Name" required>
-    <input  type="email" name="email" class="form-control bottom" placeholder="Email" required>
+    <input type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
+    <input type="text" name="lastName" class="form-control middle" placeholder="Last Name" required>
+    <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
 
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
-    <p class="mt-5 mb-3 text-muted">&copy; Bart Venter</p>
+
+    <p class="mt-5 mb-3 text-muted copyright">&copy; Bart Venter</p>
+
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <ul class="list-inline text-center">
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/bart-venter-ca-sa-606bb0141/">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/bart.venter.12">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/bartventer?tab=repositories">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
   </form>
+
+<!--
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/bart-venter-ca-sa-606bb0141/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/bart.venter.12">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/bv-loop?tab=repositories">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer> -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    function updateYear() {
+      var date = new Date();
+      var year = date.getFullYear();
+      $(".copyright").append(" " + year);
+    }
+    updateYear();
+  </script>
 </body>
 
 </html>
+
+<!--
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/bart-venter-ca-sa-606bb0141/">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/bart.venter.12">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/bv-loop?tab=repositories">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</footer> -->
