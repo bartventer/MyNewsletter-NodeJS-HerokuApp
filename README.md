@@ -1,4 +1,4 @@
-# My Newsletter subsription App.
+# My Newsletter subscription App.
 * https://barts-newsletter.herokuapp.com/
 * An End-to-End application, managed from development through to live deployment.
 * Developed with Node.js. JavaScript, HTML and CSS
